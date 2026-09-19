@@ -1,0 +1,40 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*.pt
+models/*.pkl
+!models/.gitkeep
+.pytest_cache/
+*.egg-info/
+.DS_Store
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.local
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
